@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>100757184553-94nhim8n2o1d15avkp1sm1588q0vn328.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.100757184553-94nhim8n2o1d15avkp1sm1588q0vn328</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCU0Jqj8Xq5-tEPfpQf5n9Hzmz5Cl62sfk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>100757184553</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.qdivision.stride</string>
+	<key>PROJECT_ID</key>
+	<string>converge-stride-prod</string>
+	<key>STORAGE_BUCKET</key>
+	<string>converge-stride-prod.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:100757184553:ios:ee313c346235975272fc38</string>
+	<key>DATABASE_URL</key>
+	<string>https://converge-stride-prod.firebaseio.com</string>
+</dict>
+</plist>

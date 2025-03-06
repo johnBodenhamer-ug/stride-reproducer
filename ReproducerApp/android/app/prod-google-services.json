@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "100757184553",
+    "firebase_url": "https://converge-stride-prod.firebaseio.com",
+    "project_id": "converge-stride-prod",
+    "storage_bucket": "converge-stride-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100757184553:android:b6e5f64646c355b172fc38",
+        "android_client_info": {
+          "package_name": "io.qdivision.stride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100757184553-dljkm953tpmk5quq77vct03gf51haprs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSLpCOXC72bj5q7J4W6htOgpcp_QqRKgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100757184553-dljkm953tpmk5quq77vct03gf51haprs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "100757184553-94nhim8n2o1d15avkp1sm1588q0vn328.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.qdivision.stride"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

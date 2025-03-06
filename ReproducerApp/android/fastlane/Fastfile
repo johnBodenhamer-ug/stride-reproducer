@@ -1,0 +1,44 @@
+# Fastlane config for STRIDE Android App
+
+# This is the minimum version number required.
+fastlane_version "2.62.0"
+
+default_platform :android
+
+platform :android do
+  before_all do |lane, options|
+    scheme = (options[:scheme] ? options[:scheme] : "Prod")
+    if scheme == "External-Mock"
+      ENV["ENVFILE"] = ".env.external.mock"
+    elsif scheme == "Dev"
+      ENV["ENVFILE"] = ".env.dev"
+    elsif scheme == "Stage"
+      ENV["ENVFILE"] = ".env.stage"
+    else 
+      ENV["ENVFILE"] = ".env.prod"
+    end
+  end
+
+  desc "Create a Development build"
+  lane :Development do |options|
+    gradle(task: "assembleRelease")
+  end
+
+  desc "Create a Distribution build"
+  lane :Distribution do |options|
+    gradle(task: "assembleRelease")
+  end
+
+  after_all do |lane|
+    slack(
+       message: "Android build was successful."
+    )
+  end
+
+  error do |lane, exception|
+    slack(
+       message: exception.message,
+       success: false
+    )
+  end
+end
